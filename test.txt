@@ -1,0 +1,9 @@
+				<EXPRESSION other="N" matchcase="N">
+					<ACSData Field="1001" logicator="and" operator="Starts With" value="015"/>
+					<ACSData Field="1272" operator="IN(,)" value="供应链服务事业部"/>
+				</EXPRESSION>
+                <EXPRESSION other="N" matchcase="N">
+					<ACSData Field="1273" operator="IN(,)" value="专用," sgroup="(" logicator="or"/>
+					<ACSData Field="1001" operator="Starts With" value="001" egroup=")" logicator="and"/>
+					<ACSData Field="1272" operator="IN(,)" value="TV事业部,供应链服务事业部"/>
+				</EXPRESSION>
